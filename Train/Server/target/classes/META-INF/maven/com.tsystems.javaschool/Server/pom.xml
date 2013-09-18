@@ -5,14 +5,24 @@
     <artifactId>train</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>model</artifactId>
-  <dependencies>
-  <dependency>
+  <artifactId>Server</artifactId>
+ 
+<dependencies>
+ <dependency>
         <groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>
         <version>5.1.18</version>
-    </dependency>
-    </dependencies>
+ </dependency>
+</dependencies>
 </project>
-  </dependencies>
-</project>
+<build>
+  <plugin>
+  <configuration>
+          <archive>
+            <manifest>
+              <mainClass>TrainServer</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
+ </plugin>
+</build>
