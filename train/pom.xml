@@ -7,5 +7,7 @@
   <modules>
   	<module>model</module>
   	<module>Server</module>
+  	<module>Commons</module>
+  	<module>Client</module>
   </modules>
 </project>
