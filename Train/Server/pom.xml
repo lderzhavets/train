@@ -6,18 +6,22 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>Server</artifactId>
- 
 <dependencies>
  <dependency>
         <groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>
         <version>5.1.18</version>
  </dependency>
-   	<dependency>
-  		<groupId>com.tsystems.javaschool</groupId>
-  		<artifactId>Commons</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
+<dependency>
+        <groupId>com.tsystems.javaschool</groupId>
+        <artifactId>Commons</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+</dependency>
+  <dependency>
+	<groupId>org.hibernate</groupId>
+	<artifactId>hibernate-entitymanager</artifactId>
+	<version>4.2.5.Final</version>
+    </dependency>
   </dependencies>
 </project>
 <build>
